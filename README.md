@@ -16,6 +16,8 @@
 
 libnumerixpy is a powerful, cross-platofrm Python/C library designed for high-performance numerical computing in the domains of physics, mathematics, and computer science.
 
+Libnumerixpy use Python/C API!
+
 You can join to our [small russian telegram blog](https://t.me/hex_warehouse).
 
 ## Key Features
@@ -37,6 +39,13 @@ libnumerixpy has a modular architecture consisting of the following core compone
  - physics: Offers functions for solving problems in the areas of kinematics, mechanics, thermodynamics and electronics.
 
 Each module has its own set of header files and source files, ensuring flexibility and the ability to selectively compile the required parts of the library.
+
+## Credits for C/Python API
+
+ + [C/Python API Official Docs](https://docs.python.org/3/c-api)
+ + [Enhancing python with custom C extensions](https://stackabuse.com/enhancing-python-with-custom-c-extensions/)
+ + [dm-fedorov/python-modules](https://github.com/dm-fedorov/python-modules/blob/master/c-api.md)
+ + [Жажда скорости: Python с расширениями C](https://nuancesprog.ru/p/14010/)
 
 ## Copyright
 libnumerixpy is released under the [GNU LGPL 2.1](https://github.com/alexeev-prog/libnumerixpy/blob/main/LICENSE).

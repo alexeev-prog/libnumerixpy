@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "libnumerixpy"
-version = "0.1.0"
+version = "0.1.1"
 description = "A Powerful Python/C Library for High-Performance Numerical Computing"
 authors = ["alexeev-prog <alexeev.dev@mail.ru>"]
 license = "GNU LGPL 2.1"
@@ -13,6 +13,8 @@ python = "^3.9"
 pytest-cov = "^6.0.0"
 pytest = "^8.3.4"
 ruff = "^0.8.4"
+black = "^24.10.0"
+isort = "^5.13.2"
 
 [tool.poetry.build]
 script = "build.py"
