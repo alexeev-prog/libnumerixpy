@@ -9,6 +9,9 @@
 	<img src="https://img.shields.io/github/stars/alexeev-prog/libnumerixpy?style=for-the-badge">
 	<img src="https://img.shields.io/github/issues/alexeev-prog/libnumerixpy?style=for-the-badge">
 	<img src="https://img.shields.io/github/last-commit/alexeev-prog/libnumerixpy?style=for-the-badge">
+	<img src="https://img.shields.io/pypi/l/libnumerixpy?style=for-the-badge">
+    <img src="https://img.shields.io/pypi/wheel/libnumerixpy?style=for-the-badge">
+	<img src="https://img.shields.io/badge/coverage-100%25-100%25?style=for-the-badge" alt="">
 </p>
 
 > [!CAUTION]
@@ -19,6 +22,13 @@ libnumerixpy is a powerful, cross-platofrm Python/C library designed for high-pe
 Libnumerixpy use Python/C API!
 
 You can join to our [small russian telegram blog](https://t.me/hex_warehouse).
+
+## Tests coverage
+To test the library, PyTest with the pytest-cov plugin is used. You can look at the tests in [tests directory](./tests)
+
+| Statements | Miss       | Coverage |
+|------------|------------|----------|
+| 4          | 0          | 100%     |
 
 ## Key Features
  - **Extensive Functionality**: libnumerixpy provides a wide range of functions coverint the core areas of mathematics, physics, and computer science, including:
