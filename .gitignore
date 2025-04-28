@@ -169,3 +169,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+flake.lock
+format-code.py
+format-cpp.py
